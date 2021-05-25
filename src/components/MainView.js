@@ -6,7 +6,7 @@ import "./MainView.css";
 function MainView() {
   return (
     <div className="hero-container">
-      <video src="/Videos/video.mp4" autoPlay loop muted></video>
+      <img src="/images/codeimg.jpeg" autoPlay loop muted></img>
       <h1> My Portfolio</h1><br></br>
       <p></p>      <p>I build Web apps using Javascript FrameWorks</p><p>Full Stack Applications</p>
 
