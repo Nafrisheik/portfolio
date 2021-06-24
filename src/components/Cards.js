@@ -9,6 +9,13 @@ export default function Cards() {
         <div className='cards__wrapper'>
             {/* <h1>Full Stack Projects</h1> */}
           <ul className='cards__items'>
+          <CardItem
+  src='images/chat.png'
+  text='A chat app similar to whatsapp'
+  label='View details'
+  path='https://whatsschat.netlify.app/'
+  git="https://github.com/Nafrisheik/Whatschat"
+/>
             <CardItem
               src='images/img-1.jpg'
               text='Convert your long URLs to short'
@@ -22,9 +29,8 @@ export default function Cards() {
               label='View details'
               path=''
               git="https://github.com/Nafrisheik/Takvaviya_assignment/tree/master"
-            />
-            
-            
+            />           
+           
           </ul>
           <ul className='cards__items'>
           <CardItem
